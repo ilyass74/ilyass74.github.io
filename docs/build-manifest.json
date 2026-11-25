@@ -1,0 +1,126 @@
+{
+  ".nojekyll": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "404.html": {
+    "bytes": 1718,
+    "sha256": "a68e41e7e445289865578018aabe76a3db33556e1ad1ebbbd5c9af3911fe49d1"
+  },
+  "favicon.svg": {
+    "bytes": 200,
+    "sha256": "2fe53a0f487a3aac25bdc1ff10087264cc38f12c47b06547ef0e918d26a17ea3"
+  },
+  "Ilyass_Chakir_CV_PFE_2027.pdf": {
+    "bytes": 35027,
+    "sha256": "064b77e4d6503bb4726893f0d017da625e4fc9d4741700d9c8d18241744a8738"
+  },
+  "Ilyass_Chakir_PFE_Data_IA_Horizon2027.pdf": {
+    "bytes": 35027,
+    "sha256": "064b77e4d6503bb4726893f0d017da625e4fc9d4741700d9c8d18241744a8738"
+  },
+  "index.html": {
+    "bytes": 15932,
+    "sha256": "8a04f8345b8c93dfa4b42d3f27f85f279ceba2e1cfeee3301130035e49c84c62"
+  },
+  "interactions.js": {
+    "bytes": 3856,
+    "sha256": "4d9ce1555b422f0ea7949487812ee9d5724b4c41986c54f482cd660f721e7d21"
+  },
+  "robots.txt": {
+    "bytes": 74,
+    "sha256": "7d78039361d6ec9980f7da4792c15fe3821c6cddbfd20965fb6d7b219ece0298"
+  },
+  "sitemap.xml": {
+    "bytes": 1319,
+    "sha256": "a7f6c120248a9ac52d0ef38e5f7237f9805f3b2a62339dd0c99c2082e4ab5346"
+  },
+  "style.css": {
+    "bytes": 32941,
+    "sha256": "14043bdb68af1ac4272bc7e2760d5bf668984ce71884f4f996a653413a4f69f3"
+  },
+  "_headers": {
+    "bytes": 155,
+    "sha256": "d128076bcde08ff4023a36a4a794f7fbfcf9af754c4e49c0e27b010b2079d2af"
+  },
+  "about/index.html": {
+    "bytes": 6819,
+    "sha256": "8ea5df8d4ed91c92a691710c5fc766410d178c95b5f3e5d3d1043dfe12cdb089"
+  },
+  "assets/aqua-ml-comparison.png": {
+    "bytes": 79071,
+    "sha256": "760fad25988be2b5d9f11a53547bdfd1fc1b5c08d5f6ce226a6075cf92b5664a"
+  },
+  "assets/retail-cashflow.jpg": {
+    "bytes": 263036,
+    "sha256": "f8999155feb66c8f0ef66005b999f915016b2d962f6d7a43ef67e4cd4415cf7e"
+  },
+  "assets/retail-orders.jpg": {
+    "bytes": 279609,
+    "sha256": "58252cc94acefb7b233c1b5d2675170db7dd3a896a866b1097b161942daf10eb"
+  },
+  "assets/social-cover.png": {
+    "bytes": 38492,
+    "sha256": "03f2d748106aa028ddb8fd9bcafe0ceb5538de1a595d180d24162d249675232a"
+  },
+  "experience/index.html": {
+    "bytes": 5757,
+    "sha256": "25bce7ab7742227fddefb2615274974f03485f8de553019a1d2861f7f6024af8"
+  },
+  "projects/index.html": {
+    "bytes": 15923,
+    "sha256": "aa7778c69192f660df69b7e84c0f1530fd60ec33507b7be1e145bd84711c0b14"
+  },
+  "projects/airflow-minio-data-lake/index.html": {
+    "bytes": 10434,
+    "sha256": "c1bdb8a2651cbe8f7b656990e7fa38b3705ab12e048cbfb60671e9eb324ea807"
+  },
+  "projects/ansuf/index.html": {
+    "bytes": 20019,
+    "sha256": "ec1809d16f10af3834d07c157d0842a44f5b82f17173310fbf1b3ed00fb51cdf"
+  },
+  "projects/aqua-sentinel/index.html": {
+    "bytes": 19670,
+    "sha256": "e0a8e057508dbee31418b464a1b82ea01245d357a569f2f36608beedd4fff749"
+  },
+  "projects/data-lake-local/index.html": {
+    "bytes": 8835,
+    "sha256": "e202f6c126b25c6443f33ec0845b67c012fdd239cf89da1ee95b81eea83f8890"
+  },
+  "projects/invoice-ai/index.html": {
+    "bytes": 10684,
+    "sha256": "ba2f033de6c2819f0a38dfe04e86daffb8d2d4eb167cbcfdc62b7351dcd3e77e"
+  },
+  "projects/marvel-graph-data-engineering/index.html": {
+    "bytes": 10797,
+    "sha256": "80f5ce1562d54dc1c1dc2088e10e04014415a2c5525f804193b4033796f89d44"
+  },
+  "projects/money-trail/index.html": {
+    "bytes": 19308,
+    "sha256": "48546972df2a0e1d636cdeb8903f7341cca12d3813019bb15236af7e69e65e73"
+  },
+  "projects/nerve/index.html": {
+    "bytes": 20455,
+    "sha256": "1358a49d27e20963b7f7e19b8aa0c97943dd64c1d20601c461d80fd443d401eb"
+  },
+  "projects/nyc-taxi-data-engineering/index.html": {
+    "bytes": 10739,
+    "sha256": "416eae73ae57f361d6b078127f00aac1360299bbe241df74064d4748ccd0f00a"
+  },
+  "projects/odoo-genai-assistant/index.html": {
+    "bytes": 10314,
+    "sha256": "da0628b375cb62537ded5ffe9367feed30add97daef1a49543467013d4031aec"
+  },
+  "projects/real-time-commerce-lakehouse/index.html": {
+    "bytes": 11305,
+    "sha256": "480fb49171a569be722861c7d980252f97b1fa7073f59ac6c7b47f4d2dd1af76"
+  },
+  "projects/realtime-shop-analytics/index.html": {
+    "bytes": 10662,
+    "sha256": "a7a32e8344a2e6e0087be3c543715cef5adcbcb270a8a52d0c3b307bb74f2959"
+  },
+  "projects/retail-lakehouse/index.html": {
+    "bytes": 11398,
+    "sha256": "56ba215de57ca42ece4a02a3e1ed42bd1e671e68b659dd105cd5ed76d61edffd"
+  }
+}

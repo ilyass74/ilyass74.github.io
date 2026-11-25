@@ -1,0 +1,1418 @@
+[
+  {
+    "slug": "ansuf",
+    "title": "ANSUF",
+    "category": "Tourism & product entrepreneurship",
+    "dek": "An entrepreneurial tourism technology project, built for a more informed discovery of Morocco.",
+    "stack": [
+      "Next.js",
+      "TypeScript",
+      "Python",
+      "FastAPI",
+      "PostgreSQL",
+      "PostGIS"
+    ],
+    "flow": [
+      [
+        "Curated knowledge",
+        "Sources, geographic entities and individually reviewed cultural assertions."
+      ],
+      [
+        "Publication policy",
+        "Origin, review, evidence and freshness determine what may be exposed."
+      ],
+      [
+        "PostGIS retrieval",
+        "Geographic filtering and distance calculations over admitted places."
+      ],
+      [
+        "FastAPI domains",
+        "Discovery, bounded assistance, guest consent and private group voting."
+      ],
+      [
+        "Next.js experience",
+        "Multilingual city exploration, Around Me and Rafiq/Rafika companions."
+      ],
+      [
+        "Private validation",
+        "Isolated databases, explicit feature flags and recorded acceptance gaps."
+      ]
+    ],
+    "problem": "Morocco’s places carry cultural meaning that a list of attractions cannot explain. Travelers need trustworthy context, usable local information and help deciding what to explore. ANSUF is my independent entrepreneurial response: a tourism technology product combining geographic discovery, reviewed knowledge and intelligent assistance, starting with Marrakech. Its ambition is to create practical value for visitors and the Moroccan tourism ecosystem. That intended value is a product direction to validate, not a claim of measured economic impact or a commercial launch.",
+    "sections": [
+      {
+        "title": "An entrepreneurial project with a Moroccan purpose",
+        "body": "ANSUF is more than a technical demonstration: it is an independent product initiative I intend to develop into a useful tourism experience. The opportunity I am exploring is the gap between finding a place and understanding why it matters, what information is trustworthy and how to make an informed choice nearby. The first product scope is Marrakech. Extending it across Morocco would require reliable local knowledge, human review and an operating model that can maintain that knowledge over time. No nationwide availability, partnerships, customer adoption or revenue are claimed.",
+        "sources": []
+      },
+      {
+        "title": "Who it is for, and what value it aims to create",
+        "body": "The initial audience is visitors looking for cultural context and practical help while exploring, including people making decisions as a group. The intended local benefit is clearer, more accurate visibility for relevant places and experiences, supported by their identity, sources and geographic context. Cultural content should help a visitor understand a place rather than replace its meaning with generic AI prose. These are design objectives: visitor usefulness, local discoverability and cultural accuracy still need to be assessed through actual use and review.",
+        "sources": []
+      },
+      {
+        "title": "My role: connect product decisions to the complete system",
+        "body": "I lead the independent product direction and engineering: translating the tourism problem into user journeys, shaping the data and publication model, building the frontend and API, integrating geographic retrieval and bounded assistance, and organizing technical validation. The implementation uses a Next.js/TypeScript frontend with FastAPI/Python and PostgreSQL/PostGIS. A modular monolith keeps HTTP, domain rules, persistence and provider boundaries explicit. This product work is separate from my professional ERP collaboration with B Tel Bureautique.",
+        "sources": []
+      },
+      {
+        "title": "Publication is part of the data architecture",
+        "body": "City, neighborhood and place entities sit alongside source records and knowledge assertions. Origin and review state are separate concepts: a real-origin record is not automatically verified, and demo/test content cannot become verified content. A real validation requires evidence, a reviewer and a date. Retrieval checks source validity, geographic scope, freshness and parent publication. A reviewed place does not automatically validate every sentence about it. Private curation drafts remain separate from published knowledge.",
+        "sources": []
+      },
+      {
+        "title": "A local knowledge pipeline needs review, not just collection",
+        "body": "Later local development adds a private Scout curation workflow and an internal format for additive geographic releases. Candidate records, source snapshots and owner decisions are kept distinct from the live catalog. Deterministic plans, file fingerprints and typed evidence contracts make an intended addition inspectable before it becomes publishable. Geographic release work separates structural composition, source and authority review, and a controlled import recipe with replay and rollback boundaries. The inspected import implementation is restricted to disposable test environments; it does not establish a production content pipeline or approve the pending places.",
+        "sources": []
+      },
+      {
+        "title": "Discover nearby places without hiding the location contract",
+        "body": "Around Me combines explicit foreground location permission with a manual place-based alternative. PostGIS retrieval uses geographic distance and radius predicates; pure ranking works over already admitted projections. Location freshness and accuracy are checked before a recommendation is accepted. Distances describe geographic proximity, not a measured walking route. The later local Around Me work remains identifiable as working changes rather than being silently presented as the remote branch or a completed field release.",
+        "sources": []
+      },
+      {
+        "title": "Rafiq and Rafika share one evidence boundary",
+        "body": "The two companions share the same bounded assistance core; their identities are presentation metadata, not different factual authorities. Ask assembles admitted evidence and rechecks publication before returning an answer. An optional composer may select evidence identifiers but cannot grant publication approval or insert arbitrary factual prose. Deterministic fallback and explicit uncertainty preserve the boundary when composition fails. Language and voice capabilities have separate approval and rights requirements; an implemented contract does not imply approved recordings or live translation.",
+        "sources": []
+      },
+      {
+        "title": "Private group decisions require more than a voting screen",
+        "body": "Explore Together integrates guest identity, creator-approved invitations, a frozen cohort and complete ballots. A vote contains YES, MAYBE or SKIP for every frozen place. Group and round locks, expected revisions and database constraints serialize changes. The final completion computes the result and erases ballots within the same transaction. Withdrawal or expiry invalidates the whole cohort instead of quietly reducing the denominator. Shared APIs do not expose peer ballots or intermediate scores; this is API-level ballot confidentiality, not end-to-end encryption or mathematical anonymity.",
+        "sources": []
+      },
+      {
+        "title": "Current maturity: built features, bounded validation",
+        "body": "ANSUF has implemented product and engineering work across discovery, knowledge retrieval, companion assistance and private group decisions. The inspected private-preview sign-off is conditional and retains incomplete and blocked acceptance items. It is historical evidence for a specific candidate, not a fresh production audit. Later local curation and geographic-release branches are separate milestones from the remote development branch and the preview baseline. Public commercial launch, production scale and operational readiness are not established by these sources.",
+        "sources": []
+      },
+      {
+        "title": "What a responsible launch needs next",
+        "body": "The next product work is to validate the usefulness of the experience with visitors and local reviewers, resolve remaining physical-device and accessibility acceptance, and establish a sustainable process for checking and refreshing local information. Native-language content and recordings require their own review and rights. Operational preparation, content acceptance and a launch decision must remain explicit. The aim is a dependable product with a useful Moroccan contribution; commercial assumptions and wider geographic expansion should follow evidence rather than precede it.",
+        "sources": []
+      }
+    ],
+    "limitations": [
+      "Independent entrepreneurial product in development; public commercial launch and production scale are not established.",
+      "Benefits to visitors and Moroccan tourism are intended outcomes, not measured economic or adoption results.",
+      "Private-preview acceptance is conditional; source review, field usability and operational readiness remain separate gates.",
+      "Private source, unpublished media, internal review artifacts and candidate data are excluded from this public portfolio."
+    ],
+    "sources": [],
+    "results": [
+      [
+        "Morocco",
+        "Entrepreneurial purpose",
+        "Support informed discovery and cultural context, starting with Marrakech."
+      ],
+      [
+        "End to end",
+        "My contribution",
+        "Independent product direction, data architecture, backend, frontend and validation."
+      ],
+      [
+        "Private preview",
+        "Current product stage",
+        "Implemented capabilities with scoped validation and remaining launch gates."
+      ]
+    ],
+    "flagship": true,
+    "sha": "b9eb24babbd11ee3f8dd6678a4b9821996b667cc",
+    "private": true
+  },
+  {
+    "slug": "nerve",
+    "title": "NERVE",
+    "category": "Streaming & observability",
+    "dek": "From a network event to an incident you can investigate.",
+    "stack": [
+      "Python",
+      "Kafka",
+      "Spark Structured Streaming",
+      "Apache Iceberg",
+      "OpenTelemetry",
+      "FastAPI",
+      "SQLite"
+    ],
+    "flow": [
+      [
+        "Sources",
+        "RIPE Atlas measurements, controlled incidents and OTel laboratory signals remain distinct."
+      ],
+      [
+        "Kafka",
+        "Producers publish events; topic, partition and offset establish transport identity."
+      ],
+      [
+        "Bronze · Iceberg",
+        "Preserves raw payloads and Kafka positions with durable checkpoints."
+      ],
+      [
+        "Silver · Iceberg",
+        "Parses and validates records. Insert-only MERGE deduplicates event IDs; invalid records retain rejection reasons."
+      ],
+      [
+        "Gold & detection",
+        "Five-minute analysis windows, anomaly grouping and individual supporting measurements."
+      ],
+      [
+        "Verified exports",
+        "Snapshot-bound SQLite service read models and separate JSON incident/network exports."
+      ],
+      [
+        "Investigation",
+        "FastAPI serves replay, evidence and bounded read-only assistant tools."
+      ]
+    ],
+    "problem": "An alert is only the beginning of an investigation. To explain what changed, an engineer needs the event history, the affected entities and the observations behind each conclusion. NERVE — Network Event Reasoning & Visibility Engine — connects that chain across ingestion, processing and a readable investigation interface.",
+    "sections": [
+      {
+        "title": "Preserve the event before interpreting it",
+        "body": "Python producers collect public RIPE Atlas measurements or inject explicitly controlled scenarios. A separate OpenTelemetry path ingests laboratory service signals. Kafka transports the messages; Bronze stores their original JSON alongside topic, partition, offset and ingestion time. Those positions allow the investigation to distinguish a delivery from the business event it contains. Iceberg stores the local tables and their snapshots; the warehouse is on local disk, not MinIO.",
+        "sources": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "title": "Make retries and late data explainable",
+        "body": "Silver parses the event contract, records invalid inputs in a rejection table and deduplicates valid records by event_id. Within each micro-batch it removes repeated IDs; an insert-only Iceberg MERGE protects against IDs already committed by an earlier batch. Rejections use Kafka position as their key. The base jobs use availableNow and terminate after consuming available input. A separate persistent scenario worker reuses the verified processing plans for the measured low-latency path. These are different execution modes, not an always-on claim about every job.",
+        "sources": [
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "title": "Keep service statistics faithful to the observations",
+        "body": "OpenTelemetry Gold reads pinned, verified Silver snapshots. It separates SERVER spans from CLIENT and INTERNAL spans, computes latency percentiles from individual server spans, and displays error rate with outcome coverage. Missing outcomes remain unknown. Cumulative counters require compatible baselines; resets break the interval. Histogram buckets are not converted into a fabricated p95. Late records are retained, and windows without observations do not establish either health or downtime.",
+        "sources": [
+          5
+        ]
+      },
+      {
+        "title": "Turn anomalous windows into an investigation",
+        "body": "Network Gold produces analysis windows; scenario detection groups abnormalities into incidents and builds a timeline with evidence references. The first-signal module examines individual measurements, rather than treating the declared incident start as the first observation. Replay limits charts to the selected historical point. Service, controlled incident and public-network views keep their provenance separate: coincident signals do not prove a shared cause.",
+        "sources": [
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "title": "A read-only assistant with a verifiable boundary",
+        "body": "The assistant selects from authorized read functions and admitted fact IDs. The server renders numbers, periods and warnings from the evidence; arbitrary model prose is not accepted as a factual diagnosis. Queries use immutable SQLite service exports, while network and incident views use verified JSON. Export identity and source references accompany answers. The assistant does not execute generated code, change services or claim that recorded laboratory telemetry describes a live infrastructure.",
+        "sources": [
+          9,
+          10
+        ]
+      },
+      {
+        "title": "Validate the failure boundary, not only the happy path",
+        "body": "The recorded Windows acceptance includes 1,100 Bronze messages resolving to 1,000 unique Silver IDs with controlled duplication and 100 late events. A specific Spark interruption after the Silver write but before checkpoint commit replayed the batch and retained 200 Bronze positions and 200 Silver IDs. One prepared-worker run took 48.5547345 seconds from injection to rendered evidence, against a 60-second target. This is one warm-service measurement, not a percentile or production SLA. The later English presentation update records 75 fixture/model-double Python tests; raw native acceptance exports are not published in the repository.",
+        "sources": [
+          11,
+          12
+        ]
+      }
+    ],
+    "limitations": [
+      "Local delivery; cloud deployment is deferred.",
+      "The latency result is one controlled run with Spark already ready.",
+      "An anomaly is not proof of root cause, user impact or present service status.",
+      "Raw Windows acceptance reports are private; the public repository contains summaries and fingerprints."
+    ],
+    "sources": [
+      {
+        "path": "docs/ARCHITECTURE_NERVE.md",
+        "label": "ARCHITECTURE_NERVE.md",
+        "url": "https://github.com/ilyass74/nerve/blob/04373f87d23594dcfe8950720b0a8e80c72d1395/docs/ARCHITECTURE_NERVE.md"
+      },
+      {
+        "path": "src/streaming/kafka_to_bronze.py",
+        "label": "kafka_to_bronze.py",
+        "url": "https://github.com/ilyass74/nerve/blob/04373f87d23594dcfe8950720b0a8e80c72d1395/src/streaming/kafka_to_bronze.py"
+      },
+      {
+        "path": "src/streaming/bronze_to_silver.py",
+        "label": "bronze_to_silver.py",
+        "url": "https://github.com/ilyass74/nerve/blob/04373f87d23594dcfe8950720b0a8e80c72d1395/src/streaming/bronze_to_silver.py"
+      },
+      {
+        "path": "src/streaming/live_merge.py",
+        "label": "live_merge.py",
+        "url": "https://github.com/ilyass74/nerve/blob/04373f87d23594dcfe8950720b0a8e80c72d1395/src/streaming/live_merge.py"
+      },
+      {
+        "path": "src/streaming/live_queries.py",
+        "label": "live_queries.py",
+        "url": "https://github.com/ilyass74/nerve/blob/04373f87d23594dcfe8950720b0a8e80c72d1395/src/streaming/live_queries.py"
+      },
+      {
+        "path": "src/telemetry/build_gold.py",
+        "label": "build_gold.py",
+        "url": "https://github.com/ilyass74/nerve/blob/04373f87d23594dcfe8950720b0a8e80c72d1395/src/telemetry/build_gold.py"
+      },
+      {
+        "path": "src/incidents/detect_scenario.py",
+        "label": "detect_scenario.py",
+        "url": "https://github.com/ilyass74/nerve/blob/04373f87d23594dcfe8950720b0a8e80c72d1395/src/incidents/detect_scenario.py"
+      },
+      {
+        "path": "src/incidents/build_incident_story.py",
+        "label": "build_incident_story.py",
+        "url": "https://github.com/ilyass74/nerve/blob/04373f87d23594dcfe8950720b0a8e80c72d1395/src/incidents/build_incident_story.py"
+      },
+      {
+        "path": "src/incidents/first_signal.py",
+        "label": "first_signal.py",
+        "url": "https://github.com/ilyass74/nerve/blob/04373f87d23594dcfe8950720b0a8e80c72d1395/src/incidents/first_signal.py"
+      },
+      {
+        "path": "src/assistant/engine.py",
+        "label": "engine.py",
+        "url": "https://github.com/ilyass74/nerve/blob/04373f87d23594dcfe8950720b0a8e80c72d1395/src/assistant/engine.py"
+      },
+      {
+        "path": "docs/assistant_ia.md",
+        "label": "assistant_ia.md",
+        "url": "https://github.com/ilyass74/nerve/blob/04373f87d23594dcfe8950720b0a8e80c72d1395/docs/assistant_ia.md"
+      },
+      {
+        "path": "docs/VALIDATION.md",
+        "label": "VALIDATION.md",
+        "url": "https://github.com/ilyass74/nerve/blob/04373f87d23594dcfe8950720b0a8e80c72d1395/docs/VALIDATION.md"
+      },
+      {
+        "path": "docs/ENGLISH_INTERFACE.md",
+        "label": "ENGLISH_INTERFACE.md",
+        "url": "https://github.com/ilyass74/nerve/blob/04373f87d23594dcfe8950720b0a8e80c72d1395/docs/ENGLISH_INTERFACE.md"
+      }
+    ],
+    "results": [
+      [
+        "1,100 → 1,000",
+        "Recorded controlled ingestion",
+        "Bronze messages to unique Silver event IDs; duplicate deliveries and late arrivals."
+      ],
+      [
+        "200 / 200",
+        "Recorded recovery test",
+        "Bronze positions and Silver IDs preserved at the tested failure boundary."
+      ],
+      [
+        "48.55 s",
+        "One prepared-worker run",
+        "Injection to rendered evidence. Warm Spark service; not an SLA."
+      ]
+    ],
+    "flagship": true,
+    "sha": "04373f87d23594dcfe8950720b0a8e80c72d1395",
+    "private": false
+  },
+  {
+    "slug": "aqua-sentinel",
+    "title": "AQUA NEXUS (formerly AQUA Sentinel)",
+    "category": "Simulation & machine learning",
+    "dek": "What should we measure to detect a leak?",
+    "stack": [
+      "Python",
+      "WNTR",
+      "pandas",
+      "scikit-learn",
+      "FastAPI",
+      "SQLite"
+    ],
+    "flow": [
+      [
+        "Hydraulic model",
+        "WNTR reservoir/junction/pipe network and controlled leak scenarios."
+      ],
+      [
+        "Virtual sensing",
+        "Pressure and flow time series with explicit noise assumptions."
+      ],
+      [
+        "Detection experiments",
+        "Rule-based detectors, Random Forest models and paired-flow balances."
+      ],
+      [
+        "Held-out evaluation",
+        "Frozen configurations; event recall, false alerts, detection delay and minute-level metrics."
+      ],
+      [
+        "Operations prototype",
+        "Sensor supervision, evidence, interventions and separate valve-control laboratory."
+      ]
+    ],
+    "problem": "Water loss is a physical problem observed through incomplete measurements. AQUA NEXUS (formerly AQUA Sentinel) explores the relationship between hydraulic modeling, sensor placement, leak detection and operational decisions. The entire system is a prototype on simulated infrastructure. AQUA NEXUS is the owner-selected display name; the existing aqua-sentinel repository, original experiment names and historical documentation remain unchanged.",
+    "sections": [
+      {
+        "title": "Start with a physical model",
+        "body": "The initial WNTR implementation constructs a reservoir, junctions and pipes, splits a pipe to create a leak location and runs WNTRSimulator. Pressure and flow outputs feed scenario datasets. The project retains distinct versions of simulation, detection and operations rather than silently treating all experiments as one network. The historical R–A–B–C–D network, P2–P5 sectors and the later A/B valve laboratory do not have an invented one-to-one correspondence.",
+        "sources": [
+          0,
+          1
+        ]
+      },
+      {
+        "title": "Separate model development from evaluation",
+        "body": "The ML V2 training record describes 80 simulated day-scenarios split into 48 training, 16 validation and 16 original test scenarios, with no scenario overlap. Candidate Random Forest and histogram gradient-boosting configurations are selected using validation. The selected V2 record is a Random Forest with depth 14 and minimum leaf size 8. Source and dataset hashes preserve the experiment lineage. A separate 64-scenario test compares frozen V1 and V2 models; labels are not sensor input.",
+        "sources": [
+          2,
+          3
+        ]
+      },
+      {
+        "title": "Recall has a cost",
+        "body": "On the same new 64-scenario simulated test, V1 detected 13 of 32 leak events with five false alerts. V2 detected 31 of 32, with ten false alerts and only 15 of the 32 leaks detected within five minutes. Its median delay among detected events was 360 seconds. This makes the improvement and the tradeoff visible together. Event recall and minute-level precision measure different things and are never substituted for each other.",
+        "sources": [
+          4
+        ]
+      },
+      {
+        "title": "Sometimes better sensing matters more than a more complex model",
+        "body": "A sensor study preserves the original nine measurements — four pressures and five flows — and adds four virtual downstream flow meters. For P2–P5, upstream minus downstream flow becomes a local physical balance. The calibration uses healthy training windows and causal smoothing, with confirmation before opening an alert. The important assumption is that there is no legitimate withdrawal or storage between the two synchronized meters. Otherwise a balance alone cannot distinguish consumption from leakage.",
+        "sources": [
+          5
+        ]
+      },
+      {
+        "title": "Test the selected physical balance independently",
+        "body": "A subsequent held-out 64-day simulated test contains 32 leak events and 13 installed virtual sensors. Bilans_13 detected and localized all 32 within five minutes; median delay was 180 seconds and the report counts zero false-alert episodes. The same report still records 163 alert-minutes outside leak periods, so zero false-alert episodes does not mean zero out-of-leak alert time. Localization uses paired physical balance at first triggering, not an ML localization model. Sensor drift, failures, clock offsets and field uncertainty are outside this idealized test.",
+        "sources": [
+          6
+        ]
+      },
+      {
+        "title": "Risk and operations are separate engineering questions",
+        "body": "The risk experiment uses logistic regression to prioritize a fixed 20% inspection quota on a synthetic cohort of 2,000 assets. It is not a forecast of real pipe failure. The V3 application adds sensor state, interventions, reports, an evidence-grounded assistant and approval-gated valve experiments. Commands can be refused for poor quality or communications, and faulty feedback freezes movement. The assistant may explain a simulated action but does not execute it. The valve model is quasi-static and does not establish real transient safety.",
+        "sources": [
+          7,
+          8
+        ]
+      }
+    ],
+    "limitations": [
+      "Every result is simulated; no field deployment or real equipment validation.",
+      "The idealized paired-meter test excludes drift, failures, timing offsets and legitimate withdrawals between meters.",
+      "V2 ML and the later physical-balance detector use different experiments; their results are not pooled.",
+      "The V3 operational layer adds no newly proven real-world ML detection rate."
+    ],
+    "sources": [
+      {
+        "path": "aqua_sentinel_demo.py",
+        "label": "aqua_sentinel_demo.py",
+        "url": "https://github.com/ilyass74/aqua-sentinel/blob/1ec55bd16be2a6c6816492296a3549e23af99817/aqua_sentinel_demo.py"
+      },
+      {
+        "path": "AQUA_V3_GUIDE.md",
+        "label": "AQUA_V3_GUIDE.md",
+        "url": "https://github.com/ilyass74/aqua-sentinel/blob/1ec55bd16be2a6c6816492296a3549e23af99817/AQUA_V3_GUIDE.md"
+      },
+      {
+        "path": "aqua_ml_v2.py",
+        "label": "aqua_ml_v2.py",
+        "url": "https://github.com/ilyass74/aqua-sentinel/blob/1ec55bd16be2a6c6816492296a3549e23af99817/aqua_ml_v2.py"
+      },
+      {
+        "path": "models/aqua_ml_v2/20261016T002417Z_dff644/entrainement.json",
+        "label": "entrainement.json",
+        "url": "https://github.com/ilyass74/aqua-sentinel/blob/1ec55bd16be2a6c6816492296a3549e23af99817/models/aqua_ml_v2/20261016T002417Z_dff644/entrainement.json"
+      },
+      {
+        "path": "models/aqua_ml_v2/20261016T002417Z_dff644/comparaison_test.json",
+        "label": "comparaison_test.json",
+        "url": "https://github.com/ilyass74/aqua-sentinel/blob/1ec55bd16be2a6c6816492296a3549e23af99817/models/aqua_ml_v2/20261016T002417Z_dff644/comparaison_test.json"
+      },
+      {
+        "path": "aqua_etude_capteurs_v1.py",
+        "label": "aqua_etude_capteurs_v1.py",
+        "url": "https://github.com/ilyass74/aqua-sentinel/blob/1ec55bd16be2a6c6816492296a3549e23af99817/aqua_etude_capteurs_v1.py"
+      },
+      {
+        "path": "models/aqua_detection_v3/20261016T011807Z_3ef6e7/bilan_test.json",
+        "label": "bilan_test.json",
+        "url": "https://github.com/ilyass74/aqua-sentinel/blob/1ec55bd16be2a6c6816492296a3549e23af99817/models/aqua_detection_v3/20261016T011807Z_3ef6e7/bilan_test.json"
+      },
+      {
+        "path": "models/aqua_risque_v1/20261016T022817Z_645f82/bilan_test.json",
+        "label": "bilan_test.json",
+        "url": "https://github.com/ilyass74/aqua-sentinel/blob/1ec55bd16be2a6c6816492296a3549e23af99817/models/aqua_risque_v1/20261016T022817Z_645f82/bilan_test.json"
+      },
+      {
+        "path": "aqua_v3_ops.py",
+        "label": "aqua_v3_ops.py",
+        "url": "https://github.com/ilyass74/aqua-sentinel/blob/1ec55bd16be2a6c6816492296a3549e23af99817/aqua_v3_ops.py"
+      }
+    ],
+    "results": [
+      [
+        "31 / 32",
+        "ML V2 · simulated test",
+        "64 scenarios, ten false alerts, 15 leaks detected within five minutes."
+      ],
+      [
+        "32 / 32",
+        "Physical balance · separate test",
+        "64 scenarios, 13 virtual sensors; idealized paired-meter conditions."
+      ],
+      [
+        "180 s",
+        "Balance median delay",
+        "Detected events in the later held-out simulation; no field validation."
+      ]
+    ],
+    "flagship": true,
+    "sha": "1ec55bd16be2a6c6816492296a3549e23af99817",
+    "private": false
+  },
+  {
+    "slug": "money-trail",
+    "title": "Money Trail",
+    "category": "Financial data systems",
+    "dek": "A financial result should come with a trail of evidence.",
+    "stack": [
+      "Python",
+      "PostgreSQL",
+      "dbt",
+      "Odoo",
+      "Streamlit",
+      "SQL"
+    ],
+    "flow": [
+      [
+        "Source bundles",
+        "Odoo extraction or synthetic CSV contracts, manifests and coverage declarations."
+      ],
+      [
+        "Raw & provenance",
+        "PostgreSQL stores source bytes, record identities and file fingerprints."
+      ],
+      [
+        "dbt transformations",
+        "Staging types, component amounts and invoice/settlement reconciliation."
+      ],
+      [
+        "Publication gate",
+        "Validate complete build artifacts and evidence in isolated candidate schemas."
+      ],
+      [
+        "Archived results",
+        "A failed candidate leaves the previous validated publication available."
+      ],
+      [
+        "Human review",
+        "Streamlit exposes evidence, assignment, proposals and independent decisions."
+      ]
+    ],
+    "problem": "An outstanding invoice is easy to display and harder to justify. Money Trail addresses the engineering behind trustworthy financial control: which payments count, which dates apply, whether the sources are complete and how a reviewer can trace a result back to the original record. It connects the concerns of ERP integration with analytics engineering and controlled publication.",
+    "sections": [
+      {
+        "title": "Extract once, preserve what was received",
+        "body": "Python accepts manifests with declared coverage, validates file hashes and imports source records into PostgreSQL. The importer fingerprints bundles and preserves source evidence. Odoo extraction and conversion are separate modules, so ERP payloads are transformed into the same explicit reconciliation contract rather than being treated as already trustworthy analytical facts. Company, currency and import batch are part of the scope.",
+        "sources": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "title": "Model invoice reconciliation precisely",
+        "body": "dbt staging normalizes source data; core models calculate the component amounts. An invoice balance subtracts eligible confirmed payment allocations and posted credit notes from the invoice amount. Source states and the control date constrain eligibility. A payment context record supports the evidence but is not counted again as a second financial contribution. Source coverage is carried through the calculation: missing information must not silently become a known zero.",
+        "sources": [
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "title": "Bank settlement is a different claim",
+        "body": "The settlement model compares captured payments minus refunds and fees, plus signed adjustments, with eligible bank-originated receipts and confirmed allocations. The local Odoo invoice/payment import does not establish that money reached a bank account. Candidate bank matches remain suggestions. Approving a human proposal does not update Odoo. This boundary prevents a plausible dashboard from implying a stronger accounting conclusion than its sources support.",
+        "sources": [
+          0,
+          6,
+          7
+        ]
+      },
+      {
+        "title": "Publish a validated version, not tables halfway through a build",
+        "body": "Each publication uses an isolated candidate schema prefix and a declared set of source snapshots. The publication code verifies matching dbt invocation identities, all expected model results and business tests, destination schemas and evidence integrity. Advisory locking serializes publication. Validated results and dossiers are archived; a failed or interrupted later candidate does not replace the previous usable version. Source snapshots are versions, not additional business activity to sum together.",
+        "sources": [
+          8
+        ]
+      },
+      {
+        "title": "Give review its own data model",
+        "body": "The interface brings a result, its component records and a documented investigation into one workflow. Cases support assignment, comments, proposals and independent approval or rejection. Server-side roles and expected revisions constrain decisions and stale updates. Administrative closure, accepting a justified gap and resolution after a new control have different meanings. File and row hashes support traceability; they do not certify that the original external record was true.",
+        "sources": [
+          9,
+          10
+        ]
+      },
+      {
+        "title": "What the available validation establishes",
+        "body": "The current validation guide records an owner-reported Windows run on 6 October 2026: 89 Odoo records imported, 18 dbt models and 21 data tests completed, 18 invoice results and zero settlement results published. It separately records 21 mocked-service Streamlit AppTest cases. Private raw exports and full operational logs are excluded from the public repository; these integration observations are reported evidence, not a publicly reproducible throughput measurement or accounting certification.",
+        "sources": [
+          11
+        ]
+      }
+    ],
+    "limitations": [
+      "Odoo invoice reconciliation is not bank settlement confirmation.",
+      "The local integration counts are owner-reported; private operational logs are not public.",
+      "The portfolio project does not claim accounting certification, bank integration acceptance or cloud deployment.",
+      "Human approval does not write back to Odoo."
+    ],
+    "sources": [
+      {
+        "path": "docs/ARCHITECTURE.md",
+        "label": "ARCHITECTURE.md",
+        "url": "https://github.com/ilyass74/money-trail/blob/6d1ec0cc7714fdf3396e36811ac028d0cfc7bb05/docs/ARCHITECTURE.md"
+      },
+      {
+        "path": "src/money_trail/importer.py",
+        "label": "importer.py",
+        "url": "https://github.com/ilyass74/money-trail/blob/6d1ec0cc7714fdf3396e36811ac028d0cfc7bb05/src/money_trail/importer.py"
+      },
+      {
+        "path": "src/money_trail/odoo_bundle.py",
+        "label": "odoo_bundle.py",
+        "url": "https://github.com/ilyass74/money-trail/blob/6d1ec0cc7714fdf3396e36811ac028d0cfc7bb05/src/money_trail/odoo_bundle.py"
+      },
+      {
+        "path": "dbt/models/core/core_invoice_amounts.sql",
+        "label": "core_invoice_amounts.sql",
+        "url": "https://github.com/ilyass74/money-trail/blob/6d1ec0cc7714fdf3396e36811ac028d0cfc7bb05/dbt/models/core/core_invoice_amounts.sql"
+      },
+      {
+        "path": "dbt/models/marts/invoice_reconciliation.sql",
+        "label": "invoice_reconciliation.sql",
+        "url": "https://github.com/ilyass74/money-trail/blob/6d1ec0cc7714fdf3396e36811ac028d0cfc7bb05/dbt/models/marts/invoice_reconciliation.sql"
+      },
+      {
+        "path": "dbt/tests/no_unknown_as_zero.sql",
+        "label": "no_unknown_as_zero.sql",
+        "url": "https://github.com/ilyass74/money-trail/blob/6d1ec0cc7714fdf3396e36811ac028d0cfc7bb05/dbt/tests/no_unknown_as_zero.sql"
+      },
+      {
+        "path": "dbt/models/marts/settlement_reconciliation.sql",
+        "label": "settlement_reconciliation.sql",
+        "url": "https://github.com/ilyass74/money-trail/blob/6d1ec0cc7714fdf3396e36811ac028d0cfc7bb05/dbt/models/marts/settlement_reconciliation.sql"
+      },
+      {
+        "path": "src/money_trail/matching.py",
+        "label": "matching.py",
+        "url": "https://github.com/ilyass74/money-trail/blob/6d1ec0cc7714fdf3396e36811ac028d0cfc7bb05/src/money_trail/matching.py"
+      },
+      {
+        "path": "src/money_trail/publication.py",
+        "label": "publication.py",
+        "url": "https://github.com/ilyass74/money-trail/blob/6d1ec0cc7714fdf3396e36811ac028d0cfc7bb05/src/money_trail/publication.py"
+      },
+      {
+        "path": "src/money_trail/workflow.py",
+        "label": "workflow.py",
+        "url": "https://github.com/ilyass74/money-trail/blob/6d1ec0cc7714fdf3396e36811ac028d0cfc7bb05/src/money_trail/workflow.py"
+      },
+      {
+        "path": "src/money_trail/governance.py",
+        "label": "governance.py",
+        "url": "https://github.com/ilyass74/money-trail/blob/6d1ec0cc7714fdf3396e36811ac028d0cfc7bb05/src/money_trail/governance.py"
+      },
+      {
+        "path": "docs/VALIDATION.md",
+        "label": "VALIDATION.md",
+        "url": "https://github.com/ilyass74/money-trail/blob/6d1ec0cc7714fdf3396e36811ac028d0cfc7bb05/docs/VALIDATION.md"
+      }
+    ],
+    "results": [
+      [
+        "89",
+        "Reported local Odoo import",
+        "6 October 2026 Windows run; private source exports are not published."
+      ],
+      [
+        "18 + 21",
+        "Reported dbt run",
+        "18 models and 21 data tests; scoped local development evidence."
+      ],
+      [
+        "18 / 0",
+        "Published result counts",
+        "18 invoice results, zero settlement results in that run."
+      ]
+    ],
+    "flagship": true,
+    "sha": "6d1ec0cc7714fdf3396e36811ac028d0cfc7bb05",
+    "private": false
+  },
+  {
+    "slug": "real-time-commerce-lakehouse",
+    "title": "Real-Time Commerce Lakehouse",
+    "category": "Streaming & observability",
+    "dek": "Move a CDC lakehouse to object storage without losing its history of processing.",
+    "stack": [
+      "PostgreSQL",
+      "Debezium",
+      "Kafka",
+      "Spark",
+      "Iceberg",
+      "MinIO",
+      "dbt",
+      "Airflow",
+      "Grafana"
+    ],
+    "flow": [
+      [
+        "Commerce DB",
+        "Six operational entities in PostgreSQL."
+      ],
+      [
+        "CDC transport",
+        "Debezium publishes changes to Kafka."
+      ],
+      [
+        "Bronze / Silver",
+        "Spark preserves transport positions, applies transformations and routes invalid data to DLQ."
+      ],
+      [
+        "MinIO + JDBC catalog",
+        "Iceberg files on S3-compatible storage; PostgreSQL catalog metadata."
+      ],
+      [
+        "Gold & controls",
+        "dbt models, reconciliation and Airflow checks; pipeline metrics in Grafana."
+      ]
+    ],
+    "problem": "A data platform migration must preserve both the analytical records and the point at which ingestion resumes. This local commerce lakehouse explores CDC processing and a controlled cutover from a filesystem warehouse to MinIO.",
+    "sections": [
+      {
+        "title": "A coordinated pipeline, with distinct lifecycles",
+        "body": "PostgreSQL changes pass through Debezium/Kafka into Iceberg Bronze, then entity-level Silver tables and Gold dimensions, facts and summaries. Airflow sequences 14 tasks, including schema validation, source-to-Silver reconciliation, dbt tests, Gold reconciliation, storage checks and metric publication. The active DAG is manually triggered and Bronze uses availableNow, so CDC transport does not imply continuously running end-to-end transformations.",
+        "sources": [
+          0,
+          1
+        ]
+      },
+      {
+        "title": "Cut over at a verified boundary",
+        "body": "The MinIO path uses a separate checkpoint and a handoff manifest. Preparation checks committed old offsets against Kafka partition bounds and refuses retention gaps or regression. Bronze MERGE uses topic, partition and offset to make a retried batch insert-safe. The original tables and checkpoint are checked for preservation. Recorded local cutover evidence reports 20 readable migrated tables and all 14 Airflow tasks successful; these are point-in-time observations, not a throughput benchmark.",
+        "sources": [
+          2,
+          3
+        ]
+      }
+    ],
+    "limitations": [
+      "A fresh clone lacks runtime volumes, checkpoints and the cutover manifest.",
+      "The migration copies current data, not all historical Iceberg snapshots.",
+      "Legacy gold.daily_orders is retained but not refreshed by the active selection."
+    ],
+    "sources": [
+      {
+        "path": "airflow/dags/commerce_lakehouse_minio.py",
+        "label": "commerce_lakehouse_minio.py",
+        "url": "https://github.com/ilyass74/real-time-commerce-lakehouse/blob/af3ce52c0dc6b7471ad689f696fae1dae101efc1/airflow/dags/commerce_lakehouse_minio.py"
+      },
+      {
+        "path": "spark/minio/streaming/bronze_iceberg.py",
+        "label": "bronze_iceberg.py",
+        "url": "https://github.com/ilyass74/real-time-commerce-lakehouse/blob/af3ce52c0dc6b7471ad689f696fae1dae101efc1/spark/minio/streaming/bronze_iceberg.py"
+      },
+      {
+        "path": "spark/minio/prepare.py",
+        "label": "prepare.py",
+        "url": "https://github.com/ilyass74/real-time-commerce-lakehouse/blob/af3ce52c0dc6b7471ad689f696fae1dae101efc1/spark/minio/prepare.py"
+      },
+      {
+        "path": "README.md",
+        "label": "README.md",
+        "url": "https://github.com/ilyass74/real-time-commerce-lakehouse/blob/af3ce52c0dc6b7471ad689f696fae1dae101efc1/README.md"
+      }
+    ],
+    "results": [
+      [
+        "20 tables",
+        "Reported local cutover",
+        "Schemas, row counts and bidirectional comparison; original snapshots retained."
+      ]
+    ],
+    "flagship": false,
+    "sha": "af3ce52c0dc6b7471ad689f696fae1dae101efc1",
+    "private": false
+  },
+  {
+    "slug": "retail-lakehouse",
+    "title": "Retail Analytics Lakehouse",
+    "category": "Batch & analytics engineering",
+    "dek": "Separate order value, collected cash and delivery performance.",
+    "stack": [
+      "Python",
+      "PostgreSQL",
+      "Databricks",
+      "PySpark",
+      "Delta Lake",
+      "Unity Catalog",
+      "Power BI"
+    ],
+    "flow": [
+      [
+        "PostgreSQL",
+        "Synthetic customers, products, orders, items, payments and deliveries."
+      ],
+      [
+        "Snapshot export",
+        "Python exports six tables into identified CSV batches."
+      ],
+      [
+        "Delta Bronze / Silver",
+        "Manual upload to Unity Catalog; validate keys, types and references; timestamp-aware MERGE."
+      ],
+      [
+        "Gold",
+        "Independent order, cash, product and delivery measures."
+      ],
+      [
+        "Power BI",
+        "Manual Gold CSV export into the reporting file."
+      ]
+    ],
+    "problem": "Retail reporting becomes misleading when order value, cash collections and delivery status are blended. This batch lakehouse models them separately, carrying source identity through Bronze, Silver and Gold.",
+    "sections": [
+      {
+        "title": "From a consistent snapshot to typed Delta tables",
+        "body": "The Python exporter reads a consistent PostgreSQL snapshot. Bronze records the source file and ingestion time and avoids re-appending an unchanged batch. Silver validates required values, typed fields, primary keys and foreign-key relationships across all six entities. Delta MERGE inserts new keys and updates only when source updated_at is newer. The Databricks job sequences ingestion, validation and Gold processing.",
+        "sources": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "title": "Make the business semantics visible",
+        "body": "Gold calculates non-cancelled order value separately from completed payments and refunds. Delivery on-time rate uses completed deliveries as its denominator. SQL assertions reconcile order value, net cash and delivery counts against Silver. Power BI reads downloaded Gold snapshots; the four included report screenshots show filtered synthetic data, not a client deployment or real sales.",
+        "sources": [
+          3
+        ]
+      }
+    ],
+    "limitations": [
+      "CSV upload and Power BI refresh are manual.",
+      "Source deletions are not propagated; updates depend on maintained timestamps.",
+      "ADF and ADLS Gen2 are planned, not implemented."
+    ],
+    "sources": [
+      {
+        "path": "export_all.py",
+        "label": "export_all.py",
+        "url": "https://github.com/ilyass74/retail-lakehouse/blob/15edb01c86b96b7ea41017bc8ddddccacff24114/export_all.py"
+      },
+      {
+        "path": "notebooks/05_all_tables_bronze.ipynb",
+        "label": "05_all_tables_bronze.ipynb",
+        "url": "https://github.com/ilyass74/retail-lakehouse/blob/15edb01c86b96b7ea41017bc8ddddccacff24114/notebooks/05_all_tables_bronze.ipynb"
+      },
+      {
+        "path": "notebooks/06_all_tables_silver.ipynb",
+        "label": "06_all_tables_silver.ipynb",
+        "url": "https://github.com/ilyass74/retail-lakehouse/blob/15edb01c86b96b7ea41017bc8ddddccacff24114/notebooks/06_all_tables_silver.ipynb"
+      },
+      {
+        "path": "notebooks/07_business_gold.ipynb",
+        "label": "07_business_gold.ipynb",
+        "url": "https://github.com/ilyass74/retail-lakehouse/blob/15edb01c86b96b7ea41017bc8ddddccacff24114/notebooks/07_business_gold.ipynb"
+      }
+    ],
+    "results": [],
+    "flagship": false,
+    "sha": "15edb01c86b96b7ea41017bc8ddddccacff24114",
+    "private": false
+  },
+  {
+    "slug": "invoice-ai",
+    "title": "Invoice AI",
+    "category": "AI & integrations",
+    "dek": "OCR is a draft. Review turns it into a usable record.",
+    "stack": [
+      "Python",
+      "PaddleOCR",
+      "Streamlit",
+      "Decimal",
+      "pandas"
+    ],
+    "flow": [
+      [
+        "Image",
+        "PNG or JPEG invoice."
+      ],
+      [
+        "OCR",
+        "PaddleOCR text and bounding boxes."
+      ],
+      [
+        "Extraction",
+        "Explicit French/English layout rules and coordinate-based line items."
+      ],
+      [
+        "Checks & review",
+        "Decimal arithmetic, manual corrections and required confirmation."
+      ],
+      [
+        "Approval record",
+        "Original extraction, reviewed fields, image hash and edit history."
+      ]
+    ],
+    "problem": "Extracted invoice text is not automatically reliable accounting data. This prototype makes recognition, parsing, arithmetic and human approval separate steps, so an apparently plausible total cannot bypass review.",
+    "sections": [
+      {
+        "title": "A visible review boundary",
+        "body": "Pretrained PaddleOCR models recognize the image. Explicit extraction rules build headers, parties and items; the English parser reconstructs coordinate-based multiline tables. Decimal checks compare rounded line totals and subtotal plus tax minus discount. Streamlit lets the reviewer compare the image and fields, correct them and save an approval record with source hash and history. Editing invalidates prior confirmation.",
+        "sources": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "title": "Test the covered layouts honestly",
+        "body": "The repository records 13 regression/replay tests across known French samples, English OCR boxes, missing cells and ambiguous dates. These fixtures are not a representative accuracy benchmark. An unfamiliar quote produced empty fields/items in an initial check. No LLM is used, and an arithmetic PASS establishes neither OCR accuracy nor document authenticity.",
+        "sources": [
+          4,
+          5
+        ]
+      }
+    ],
+    "limitations": [
+      "Layout-specific extraction; unfamiliar invoices may be incomplete.",
+      "No general multipage PDF, complex tax, credit-note or quote classification.",
+      "Local reviewer identity is not authenticated; MAD/EUR only."
+    ],
+    "sources": [
+      {
+        "path": "read_invoice.py",
+        "label": "read_invoice.py",
+        "url": "https://github.com/ilyass74/invoice-ai/blob/dff698bf7c0f7552edab6a9507342694a307f1f6/read_invoice.py"
+      },
+      {
+        "path": "english_layout.py",
+        "label": "english_layout.py",
+        "url": "https://github.com/ilyass74/invoice-ai/blob/dff698bf7c0f7552edab6a9507342694a307f1f6/english_layout.py"
+      },
+      {
+        "path": "verify_items.py",
+        "label": "verify_items.py",
+        "url": "https://github.com/ilyass74/invoice-ai/blob/dff698bf7c0f7552edab6a9507342694a307f1f6/verify_items.py"
+      },
+      {
+        "path": "app.py",
+        "label": "app.py",
+        "url": "https://github.com/ilyass74/invoice-ai/blob/dff698bf7c0f7552edab6a9507342694a307f1f6/app.py"
+      },
+      {
+        "path": "test_regression.py",
+        "label": "test_regression.py",
+        "url": "https://github.com/ilyass74/invoice-ai/blob/dff698bf7c0f7552edab6a9507342694a307f1f6/test_regression.py"
+      },
+      {
+        "path": "test_english.py",
+        "label": "test_english.py",
+        "url": "https://github.com/ilyass74/invoice-ai/blob/dff698bf7c0f7552edab6a9507342694a307f1f6/test_english.py"
+      }
+    ],
+    "results": [],
+    "flagship": false,
+    "sha": "dff698bf7c0f7552edab6a9507342694a307f1f6",
+    "private": false
+  },
+  {
+    "slug": "odoo-genai-assistant",
+    "title": "Odoo GenAI Assistant",
+    "category": "AI & integrations",
+    "dek": "Connect ERP reads and document retrieval through explicit tools.",
+    "stack": [
+      "Python",
+      "Flask",
+      "Odoo XML-RPC",
+      "LangChain",
+      "Groq",
+      "ChromaDB",
+      "Hugging Face"
+    ],
+    "flow": [
+      [
+        "Question",
+        "Flask browser/API entry."
+      ],
+      [
+        "Tool selection",
+        "LangChain tool-calling model."
+      ],
+      [
+        "ERP + retrieval",
+        "XML-RPC reads or top-two Chroma chunks."
+      ],
+      [
+        "Answer & report",
+        "Model-composed French response or Word report."
+      ]
+    ],
+    "problem": "Business questions can require both live ERP records and policy documents. This local assistant connects those two information paths with explicit tools for stock, sales, customer invoices, retrieval and report generation.",
+    "sections": [
+      {
+        "title": "Two sources with different retrieval mechanics",
+        "body": "Odoo tools use XML-RPC search_read calls limited to 20 records. PDF/TXT indexing splits text into 800-character chunks with 100-character overlap, embeds with BAAI/bge-small-en-v1.5 and stores business_documents in Chroma. The agent retrieves the two nearest chunks. One tool-call round is followed by a model-composed French answer; report tools write type-specific Word files.",
+        "sources": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "title": "Integration scope, not a production assistant claim",
+        "body": "The code demonstrates ERP access, retrieval and tool routing. It has no persistent conversation memory or automated test suite. Reads are limited and not explicitly ordered; repeated indexing can duplicate chunks. Flask debug mode and unauthenticated routes make this a local prototype. Generated index/report artifacts are not copied into this portfolio.",
+        "sources": [
+          0,
+          3
+        ]
+      }
+    ],
+    "limitations": [
+      "No application-level route authentication.",
+      "A one-round tool call and generated answer do not guarantee correctness.",
+      "ERP records and document contents may reach the configured external model."
+    ],
+    "sources": [
+      {
+        "path": "odoo-projet/agent.py",
+        "label": "agent.py",
+        "url": "https://github.com/ilyass74/odoo-genai-assistant/blob/97d0a9c75662b0b4b785ea960c5cf05d99e48506/odoo-projet/agent.py"
+      },
+      {
+        "path": "odoo-projet/connexion.py",
+        "label": "connexion.py",
+        "url": "https://github.com/ilyass74/odoo-genai-assistant/blob/97d0a9c75662b0b4b785ea960c5cf05d99e48506/odoo-projet/connexion.py"
+      },
+      {
+        "path": "odoo-projet/indexation.py",
+        "label": "indexation.py",
+        "url": "https://github.com/ilyass74/odoo-genai-assistant/blob/97d0a9c75662b0b4b785ea960c5cf05d99e48506/odoo-projet/indexation.py"
+      },
+      {
+        "path": "odoo-projet/app.py",
+        "label": "app.py",
+        "url": "https://github.com/ilyass74/odoo-genai-assistant/blob/97d0a9c75662b0b4b785ea960c5cf05d99e48506/odoo-projet/app.py"
+      }
+    ],
+    "results": [],
+    "flagship": false,
+    "sha": "97d0a9c75662b0b4b785ea960c5cf05d99e48506",
+    "private": false
+  },
+  {
+    "slug": "realtime-shop-analytics",
+    "title": "Real-time Shop Analytics",
+    "category": "Streaming & observability",
+    "dek": "Idempotent application of delivered CDC events.",
+    "stack": [
+      "PostgreSQL",
+      "Debezium",
+      "Kafka",
+      "Python",
+      "Streamlit"
+    ],
+    "flow": [
+      [
+        "Shop transactions",
+        "Simulated purchases and transactional cancellations."
+      ],
+      [
+        "Debezium + Kafka",
+        "Committed row changes and initial snapshot."
+      ],
+      [
+        "Python consumer",
+        "Event ledger and reporting state in one database transaction."
+      ],
+      [
+        "Analytics schema",
+        "Current rows, with offsets committed afterward."
+      ],
+      [
+        "Streamlit",
+        "Eventually consistent sales and inventory."
+      ]
+    ],
+    "problem": "A live-looking dashboard is only useful if replayed events do not silently double its totals. This local CDC system focuses on the transaction boundary between source changes, reporting state and committed offsets.",
+    "sections": [
+      {
+        "title": "Apply before acknowledging",
+        "body": "The consumer stores a unique topic/partition/offset ledger entry and the corresponding row update in one PostgreSQL transaction. Kafka acknowledgment follows the database commit. Redelivery of the same offset is skipped. The source simulator cancels an order and restores stock transactionally; monetary storage uses integer centimes. Only the shop schema is captured, avoiding a feedback loop from analytics writes.",
+        "sources": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "title": "Be explicit about consistency",
+        "body": "Delivery is at least once with idempotent application of the same Kafka position, not an end-to-end exactly-once guarantee. Changes across source tables can appear partially while reporting catches up. Six event-decoder unit tests and a source/reporting comparison script are included; the latter must run after source writes stop. A three-second dashboard refresh is not a measured pipeline latency.",
+        "sources": [
+          3,
+          4
+        ]
+      }
+    ],
+    "limitations": [
+      "Local single-broker configuration without production availability or security evidence.",
+      "No full Docker integration run was recorded in the authoring environment.",
+      "The event ledger grows without a retention policy."
+    ],
+    "sources": [
+      {
+        "path": "app/consumer.py",
+        "label": "consumer.py",
+        "url": "https://github.com/ilyass74/realtime-shop-analytics/blob/fbe173b9cc293d0130f84f34b2dde818163221da/app/consumer.py"
+      },
+      {
+        "path": "app/simulate.py",
+        "label": "simulate.py",
+        "url": "https://github.com/ilyass74/realtime-shop-analytics/blob/fbe173b9cc293d0130f84f34b2dde818163221da/app/simulate.py"
+      },
+      {
+        "path": "sql/init.sql",
+        "label": "init.sql",
+        "url": "https://github.com/ilyass74/realtime-shop-analytics/blob/fbe173b9cc293d0130f84f34b2dde818163221da/sql/init.sql"
+      },
+      {
+        "path": "tests/test_events.py",
+        "label": "test_events.py",
+        "url": "https://github.com/ilyass74/realtime-shop-analytics/blob/fbe173b9cc293d0130f84f34b2dde818163221da/tests/test_events.py"
+      },
+      {
+        "path": "app/verify.py",
+        "label": "verify.py",
+        "url": "https://github.com/ilyass74/realtime-shop-analytics/blob/fbe173b9cc293d0130f84f34b2dde818163221da/app/verify.py"
+      }
+    ],
+    "results": [],
+    "flagship": false,
+    "sha": "fbe173b9cc293d0130f84f34b2dde818163221da",
+    "private": false
+  },
+  {
+    "slug": "nyc-taxi-data-engineering",
+    "title": "NYC Taxi Data Engineering",
+    "category": "Batch & analytics engineering",
+    "dek": "Shape trip records into analytical layers, with explicit quality rules.",
+    "stack": [
+      "Python",
+      "PySpark",
+      "Parquet",
+      "Streamlit",
+      "Plotly",
+      "Apache Iceberg (branch)"
+    ],
+    "flow": [
+      [
+        "TLC trips",
+        "January 2025 yellow-taxi Parquet input."
+      ],
+      [
+        "Bronze",
+        "Raw trip records."
+      ],
+      [
+        "Silver",
+        "Duration, distance, fare and passenger filters; derived date/hour/speed."
+      ],
+      [
+        "Gold",
+        "Daily, hourly, payment and pickup-location aggregates."
+      ],
+      [
+        "Analytics",
+        "Streamlit plus separate anomaly exports."
+      ]
+    ],
+    "problem": "Trip data contains invalid durations, missing essential values and records that require investigation. The project organizes a fixed NYC TLC input into reproducible analytical layers instead of computing every visualization from raw files.",
+    "sections": [
+      {
+        "title": "Clean and aggregate with known boundaries",
+        "body": "The main branch uses Parquet. Silver retains positive passengers, distances above zero and at most 100 miles, nonnegative fares and durations above zero and at most 300 minutes. It derives pickup date/hour and average speed. Gold groups daily trips, hours, payment types and pickup locations. Twelve quality checks print their results, but failures do not currently produce a failing exit code.",
+        "sources": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "title": "An optional Iceberg extension remains separate",
+        "body": "The inspected feat/apache-iceberg branch adds a local Hadoop catalog, shared transforms, named tables, snapshot retention, full-refresh reruns and Gold count reconciliation. The dashboard consumes exported Parquet rather than reading warehouse files directly. This branch is not merged into main. The main Bronze/Silver path mismatch remains documented; neither branch establishes a full-dataset performance benchmark.",
+        "sources": [
+          3
+        ]
+      }
+    ],
+    "limitations": [
+      "Main has a documented Bronze/Silver path mismatch.",
+      "Negative total_amount values can survive the other filters.",
+      "Iceberg is a separate draft branch; no MinIO or incremental monthly loader."
+    ],
+    "sources": [
+      {
+        "path": "src/transformations/silver.py",
+        "label": "silver.py",
+        "url": "https://github.com/ilyass74/nyc-taxi-data-engineering/blob/0638a78df9034932997e4306c3569ee36471441d/src/transformations/silver.py"
+      },
+      {
+        "path": "src/transformations/gold.py",
+        "label": "gold.py",
+        "url": "https://github.com/ilyass74/nyc-taxi-data-engineering/blob/0638a78df9034932997e4306c3569ee36471441d/src/transformations/gold.py"
+      },
+      {
+        "path": "src/quality/data_quality.py",
+        "label": "data_quality.py",
+        "url": "https://github.com/ilyass74/nyc-taxi-data-engineering/blob/0638a78df9034932997e4306c3569ee36471441d/src/quality/data_quality.py"
+      },
+      {
+        "path": "README.md",
+        "label": "README.md",
+        "url": "https://github.com/ilyass74/nyc-taxi-data-engineering/blob/0638a78df9034932997e4306c3569ee36471441d/README.md"
+      }
+    ],
+    "results": [],
+    "flagship": false,
+    "sha": "0638a78df9034932997e4306c3569ee36471441d",
+    "private": false
+  },
+  {
+    "slug": "marvel-graph-data-engineering",
+    "title": "Marvel Character Graph",
+    "category": "Graph & text data",
+    "dek": "Turn unstructured dialogue into a queryable graph — and expose the heuristic.",
+    "stack": [
+      "Python",
+      "Beautiful Soup",
+      "Parquet",
+      "Neo4j",
+      "NetworkX",
+      "Plotly",
+      "Streamlit"
+    ],
+    "flow": [
+      [
+        "Screenplay pages",
+        "Download configured pages and extract preformatted text."
+      ],
+      [
+        "Dialogue parsing",
+        "Uppercase speaker-label detection."
+      ],
+      [
+        "Co-occurrence",
+        "Five-entry rolling window creates weighted character pairs."
+      ],
+      [
+        "Neo4j",
+        "Character nodes and movie-specific INTERACTS_WITH relationships."
+      ],
+      [
+        "Exploration",
+        "Streamlit graph, metrics and CSV export."
+      ]
+    ],
+    "problem": "A graph is only as meaningful as the rule used to create its edges. This pipeline explores the transformation of screenplay text into relationships while keeping inferred co-occurrence distinct from verified character interaction.",
+    "sections": [
+      {
+        "title": "Make the edge construction inspectable",
+        "body": "The parser detects uppercase speaker labels and accumulates character pairs within a five-entry dialogue window. It writes interaction rows to Parquet. The Neo4j loader merges character nodes and movie-specific relationships, incrementing weights on repeated loads. Streamlit queries the graph and renders a NetworkX/Plotly view. This demonstrates text-to-graph modeling and graph serving, not semantic relationship extraction.",
+        "sources": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "title": "Keep fallback data visibly synthetic",
+        "body": "When scripts cannot be parsed, the fallback connects every unique character pair with weight one. That is demonstration data, not a recovered film graph. Case-sensitive aliases and a non-idempotent loader limit interpretation; rerunning the same file increases existing weights. There is no automated accuracy or performance benchmark.",
+        "sources": [
+          1,
+          2
+        ]
+      }
+    ],
+    "limitations": [
+      "Co-occurrence does not prove conversation or a canonical relationship.",
+      "Fallback ignores film boundaries; repeated graph loading inflates weights.",
+      "External pages and screenplay format remain dependencies."
+    ],
+    "sources": [
+      {
+        "path": "src/01_scrape_scripts.py",
+        "label": "01_scrape_scripts.py",
+        "url": "https://github.com/ilyass74/marvel-graph-data-engineering/blob/7e2279cad027647d1318a3edf5fba39439f30be1/src/01_scrape_scripts.py"
+      },
+      {
+        "path": "src/02_extract_interactions.py",
+        "label": "02_extract_interactions.py",
+        "url": "https://github.com/ilyass74/marvel-graph-data-engineering/blob/7e2279cad027647d1318a3edf5fba39439f30be1/src/02_extract_interactions.py"
+      },
+      {
+        "path": "src/03_load_to_neo4j.py",
+        "label": "03_load_to_neo4j.py",
+        "url": "https://github.com/ilyass74/marvel-graph-data-engineering/blob/7e2279cad027647d1318a3edf5fba39439f30be1/src/03_load_to_neo4j.py"
+      }
+    ],
+    "results": [],
+    "flagship": false,
+    "sha": "7e2279cad027647d1318a3edf5fba39439f30be1",
+    "private": false
+  },
+  {
+    "slug": "airflow-minio-data-lake",
+    "title": "Airflow + MinIO Data Lake",
+    "category": "Batch & analytics engineering",
+    "dek": "Move a local order ETL into scheduled object-storage processing.",
+    "stack": [
+      "Python",
+      "Airflow",
+      "MinIO",
+      "Boto3",
+      "pandas",
+      "PyArrow",
+      "DuckDB"
+    ],
+    "flow": [
+      [
+        "CSV in MinIO",
+        "Sensor checks raw-data for CSV input."
+      ],
+      [
+        "Airflow",
+        "Hourly DAG waits, then invokes the ETL."
+      ],
+      [
+        "Transformation",
+        "Parse order_date and derive year_month."
+      ],
+      [
+        "Parquet object",
+        "Overwrite processed-data/orders/orders.parquet."
+      ],
+      [
+        "DuckDB",
+        "Read through httpfs and summarize by status."
+      ]
+    ],
+    "problem": "Separating orchestration from transformation makes a local ETL easier to operate. This project extends order processing with a storage sensor, task dependencies and S3-compatible reads and writes.",
+    "sections": [
+      {
+        "title": "Schedule, wait, transform and query",
+        "body": "The hourly DAG uses a PythonSensor every 60 seconds, with a one-hour timeout, then a Bash task runs the Python ETL. Boto3 reads orders.csv, pandas derives year_month and PyArrow writes one Parquet object. DuckDB reads that object over its S3/httpfs path and groups order counts and amounts by status. Adding a month column does not physically partition this object-storage output.",
+        "sources": [
+          0,
+          1
+        ]
+      },
+      {
+        "title": "The operational edges matter",
+        "body": "The sensor checks only the first ten objects for any CSV, while the ETL always reads orders.csv. Existing input can be processed again and the output key is overwritten. MinIO is external to the supplied Compose stack. A legacy BashOperator import may need adaptation for the installed Airflow provider. These are source-inspected constraints, not fixed or newly validated features.",
+        "sources": [
+          0,
+          1,
+          2
+        ]
+      }
+    ],
+    "limitations": [
+      "No schema/data-quality or end-to-end automated test suite.",
+      "MinIO is an external prerequisite; dependencies are not locked.",
+      "No incremental merge, processed-input marker or versioned table format."
+    ],
+    "sources": [
+      {
+        "path": "dags/data_lake_pipeline.py",
+        "label": "data_lake_pipeline.py",
+        "url": "https://github.com/ilyass74/airflow-minio-data-lake/blob/33b45f2800da0ce068720bdf734514878ef90912/dags/data_lake_pipeline.py"
+      },
+      {
+        "path": "dags/etl_minio.py",
+        "label": "etl_minio.py",
+        "url": "https://github.com/ilyass74/airflow-minio-data-lake/blob/33b45f2800da0ce068720bdf734514878ef90912/dags/etl_minio.py"
+      },
+      {
+        "path": "docker-compose.yaml",
+        "label": "docker-compose.yaml",
+        "url": "https://github.com/ilyass74/airflow-minio-data-lake/blob/33b45f2800da0ce068720bdf734514878ef90912/docker-compose.yaml"
+      }
+    ],
+    "results": [],
+    "flagship": false,
+    "sha": "33b45f2800da0ce068720bdf734514878ef90912",
+    "private": false
+  },
+  {
+    "slug": "data-lake-local",
+    "title": "Local Data Lake",
+    "category": "Batch & analytics engineering",
+    "dek": "A compact foundation: CSV to partitioned Parquet to SQL.",
+    "stack": [
+      "Python",
+      "pandas",
+      "PyArrow",
+      "DuckDB"
+    ],
+    "flow": [
+      [
+        "Order CSV",
+        "Read a local sample."
+      ],
+      [
+        "Transform",
+        "Parse dates and derive year_month."
+      ],
+      [
+        "Parquet",
+        "Physically partition the dataset by month."
+      ],
+      [
+        "DuckDB SQL",
+        "Group order counts and amounts by status."
+      ]
+    ],
+    "problem": "The smallest system in this collection establishes a useful storage pattern: transform row-oriented input into a columnar dataset that can be queried without running a database server.",
+    "sections": [
+      {
+        "title": "A complete local data path",
+        "body": "etl_local.py separates extraction, transformation, loading and querying. It parses order_date, derives year_month, writes a PyArrow Parquet dataset partitioned by month and queries its files with DuckDB SQL. The repository includes sample input and one processed partition. This gives the later Airflow/MinIO work a concrete filesystem baseline.",
+        "sources": [
+          0
+        ]
+      },
+      {
+        "title": "Bound the scope",
+        "body": "This is an early batch learning project. The writer does not explicitly clear older output partitions, so repeated runs can retain files and inflate results. There is no incremental ingestion, schema validation, deduplication, orchestration or automated test suite. Its value is the inspectable end-to-end storage transformation, not an unmeasured scale claim.",
+        "sources": [
+          0
+        ]
+      }
+    ],
+    "limitations": [
+      "Unpinned dependencies and no automated tests.",
+      "Repeated writes can retain older files; no idempotence guarantee."
+    ],
+    "sources": [
+      {
+        "path": "etl_local.py",
+        "label": "etl_local.py",
+        "url": "https://github.com/ilyass74/data-lake-local/blob/0e7b2e83e324136ad59a16fa33c0de37e74ec029/etl_local.py"
+      }
+    ],
+    "results": [],
+    "flagship": false,
+    "sha": "0e7b2e83e324136ad59a16fa33c0de37e74ec029",
+    "private": false
+  }
+]

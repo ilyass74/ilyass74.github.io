@@ -1,0 +1,11 @@
+{
+  "name": "ilyass74-github-io",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/serve.mjs",
+    "check": "node --check src/interactions.js"
+  }
+}
